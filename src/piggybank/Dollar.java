@@ -1,4 +1,4 @@
-package piggbank;
+package piggybank;
 
 public class Dollar extends Money
 

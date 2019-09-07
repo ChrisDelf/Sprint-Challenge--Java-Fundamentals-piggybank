@@ -1,9 +1,9 @@
-package piggbank;
+package piggybank;
 
-public class Quarter extends Money
+public class Penny extends Money
 
 {
- public Quarter(int amount)
+ public Penny(int amount)
   {
     super(amount); // super is what we use to grab the field from the parents
   }
@@ -17,17 +17,17 @@ public class Quarter extends Money
   {
    if (amount > 1)
    {
-     return amount + "Quarters";
+     return amount + "Pennies";
    }
    else
    {
-     return amount + "Quarter";
+     return amount + "Penny";
    }
   }
  @Override
   public double getValue()
   {
-    return amount *  .25;
+    return amount * .01;
   }
 
 }

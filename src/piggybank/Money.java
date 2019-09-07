@@ -1,4 +1,4 @@
-package piggbank;
+package piggybank;
 
 
 public abstract class Money
