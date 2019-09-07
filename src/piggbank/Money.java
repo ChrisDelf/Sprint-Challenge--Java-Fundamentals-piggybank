@@ -3,14 +3,23 @@ package piggbank;
 
 public abstract class Money
 {
-  //flieds
-  public String name;
- // contructor
-  public Money(String name)
-  {
-    this.name = name;
-  }
+//   //fields
+//   public String name;
+//   public static int MaxId = 0;
+     public int amount;
+//  // contructor
+ public Money(int amount)
+ {
+   this.amount = amount;
+ }
+
+ public Money()
+ {
+   this.amount += 1;
+ }
+
   //abstractmethods
   public abstract double getValue();
+  public abstract String getName();
 
 }
