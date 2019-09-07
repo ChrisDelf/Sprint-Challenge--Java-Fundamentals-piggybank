@@ -17,11 +17,11 @@ public class Nickel extends Money
   {
    if (amount > 1)
    {
-     return amount + "Nickels";
+     return amount + " Nickels";
    }
    else
    {
-     return amount + "Nickel";
+     return amount + " Nickel";
    }
   }
  @Override

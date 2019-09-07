@@ -17,11 +17,11 @@ public class Dime extends Money
   {
    if (amount > 1)
    {
-     return amount + "Dimes";
+     return amount + " Dimes";
    }
    else
    {
-     return amount + "Dime";
+     return amount + " Dime";
    }
   }
  @Override

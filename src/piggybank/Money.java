@@ -4,8 +4,7 @@ package piggybank;
 public abstract class Money
 {
 //   //fields
-//   public String name;
-//   public static int MaxId = 0;
+
      public int amount;
 //  // contructor
  public Money(int amount)

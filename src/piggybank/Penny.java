@@ -17,11 +17,11 @@ public class Penny extends Money
   {
    if (amount > 1)
    {
-     return amount + "Pennies";
+     return amount + " Pennies";
    }
    else
    {
-     return amount + "Penny";
+     return amount + " Penny";
    }
   }
  @Override

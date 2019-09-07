@@ -17,11 +17,11 @@ public class Dollar extends Money
   {
    if (amount > 1)
    {
-     return amount + "Dollars";
+     return amount + " Dollars";
    }
    else
    {
-     return amount + "Dollar";
+     return amount + " Dollar";
    }
   }
  @Override

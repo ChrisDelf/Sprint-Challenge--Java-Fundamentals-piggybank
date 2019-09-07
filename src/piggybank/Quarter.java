@@ -17,11 +17,11 @@ public class Quarter extends Money
   {
    if (amount > 1)
    {
-     return amount + "Quarters";
+     return amount + " Quarters";
    }
    else
    {
-     return amount + "Quarter";
+     return amount + " Quarter";
    }
   }
  @Override
